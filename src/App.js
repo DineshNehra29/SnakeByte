@@ -110,7 +110,6 @@ function App() {
 
       if (newSnake[0].x === fruit.x && newSnake[0].y === fruit.y) {
         setScore((sco) => sco + 1);
-        console.log(score);
         renderFruit();
       } else {
         newSnake.pop();
